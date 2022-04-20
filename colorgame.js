@@ -122,7 +122,7 @@ function main(){
             clicked++;
             
             const clickedcolor = this.style.backgroundColor;
-            console.log(clickedcolor);
+            // console.log(clickedcolor);
             if(clickedcolor === pickcolor){
                 total_count++;
                 win_count++;
@@ -180,7 +180,7 @@ function main(){
         })
         squares[i].addEventListener("mouseover",function(){
             const mouseabove = this.style.backgroundColor;
-            console.log(mouseabove);
+            // console.log(mouseabove);
         })
 
     };
