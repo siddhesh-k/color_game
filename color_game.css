@@ -109,7 +109,6 @@ button:hover{
 
 #score_div{
     float: left;
-    border: 1px solid red;
     max-width: 600px;
     margin: 20px auto;
     padding: .3rem;
