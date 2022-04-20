@@ -1,0 +1,118 @@
+body{
+    background-color:aqua;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* *{
+    border: 1px solid red;
+
+} */
+#colordisplay{
+    color: rgb(63, 187, 146);
+    font-size: 130%;
+}
+
+.square{
+    width:30%;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.4%;
+    border-radius: 3em;
+    transition: background 0.5s;
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
+}
+
+.square:hover{
+    cursor: pointer;
+    
+}
+#container{
+    max-width: 600px;
+    margin: 20px auto;
+}
+#messagecontainer{
+    background-color: rgb(63, 187, 146);
+    text-align: center;
+    
+}
+#h1_display{
+    color:rgb(102, 101, 134);
+    text-align: center;
+    background-color:rgba(2, 73, 73, 0.959);
+    margin: 0;
+    padding: 20px 0;
+    font-weight:normal;
+    text-transform: uppercase;
+    line-height: 1.1;
+}
+.selected{
+    background-color: aqua;
+    color:rgb(2, 73, 73) ;
+}
+button{
+    border:none;
+    border-radius: 2ch;
+    padding: 1em;
+    margin: 1% auto;
+    /* padding-left: 1em; */
+    background-color: rgb(2, 73, 73);
+    color: aqua;
+    text-transform: uppercase;
+    height: 80%;
+    font-weight: 700;
+    font-size:0.8em;
+    letter-spacing: 1px;
+    transition: all 0.4s;
+    outline: none;
+}
+
+
+button:hover{
+    background-color: rgb(13, 233, 233);
+    color: rgb(2, 73, 73);
+    cursor:pointer;
+
+}
+
+#msg{
+     /* border: 2px solid red; */
+    display: inline-block;
+    width: 30%;
+    /* padding-left: 3rem; */
+    /* padding-right: 9rem; */
+    font-weight: 700;
+    font-size:1.2em;
+}
+#chanceleft{
+    width:30%;
+    /* display: inline-block; */
+    /* border: 2px solid red; */
+    padding: .3rem;
+    margin-left: 50px;
+    /* margin-left: 2% ; */
+    /* height: 40%; */
+    font-weight: 700;
+    font-size:1.2em;
+}
+#chanceleftcount{
+    width:30%;
+    /* display: inline-block; */
+    /* border: 2px solid red; */
+    /* padding: .8rem; */
+    margin-left: 0px;
+    /* margin-left: 2% ; */
+    /* height: 40%; */
+    font-weight: 700;
+    font-size:1.2em;
+}
+
+#score_div{
+    float: left;
+    border: 1px solid red;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: .3rem;
+    font-weight: 700;
+    font-size:1.2em;
+}
