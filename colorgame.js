@@ -30,7 +30,7 @@ let chanceleft;
 const reset = ()=>{
     colors= generaterandomcolors(numsquares);
     pickcolor=pickColors();
-    // resetbutton.textContent="Refres";
+    // resetbutton.textContent="Refresh";
     colorDisplay.textContent=pickcolor;
     if(numsquares==9){
         chLeftCount.textContent=4;
@@ -124,10 +124,10 @@ function main(){
             const clickedcolor = this.style.backgroundColor;
             // console.log(clickedcolor);
             if(clickedcolor === pickcolor){
-                total_count++;
-                win_count++;
-                total_game_count.textContent=total_count;
-                total_win_count.textContent=win_count;
+                // total_count++;
+                // win_count++;
+                // total_game_count.textContent=total_count;
+                // total_win_count.textContent=win_count;
                 message.textContent="Correct Answer";
                 changeColors(pickcolor);
                 colorDisplay.style.color=pickcolor;
@@ -141,19 +141,19 @@ function main(){
                     colorDisplay.style.color=pickcolor;
                     resetbutton.textContent="Play again";
                     chLeftCount.textContent=0;
-                    total_count++;
-                    lose_count++;
-                    total_game_count.textContent=total_count;
-                    total_lose_count.textContent=lose_count;
+                    // total_count++;
+                    // lose_count++;
+                    // total_game_count.textContent=total_count;
+                    // total_lose_count.textContent=lose_count;
                     return message.textContent="You Lose"
                  }
                 else if(mode==='easy' && clicked==2){
                     changeColors(pickcolor);
                 colorDisplay.style.color=pickcolor;
-                total_count++;
-                lose_count++;
-                total_game_count.textContent=total_count;
-                total_lose_count.textContent=lose_count;
+                // total_count++;
+                // lose_count++;
+                // total_game_count.textContent=total_count;
+                // total_lose_count.textContent=lose_count;
                 resetbutton.textContent="Play again";
                 chLeftCount.textContent=0;
                 
@@ -162,10 +162,10 @@ function main(){
                 else if(mode==='hard' && clicked==4){
                     changeColors(pickcolor);
                 colorDisplay.style.color=pickcolor;
-                total_count++;
-                lose_count++;
-                total_game_count.textContent=total_count;
-                total_lose_count.textContent=lose_count;
+                // total_count++;
+                // lose_count++;
+                // total_game_count.textContent=total_count;
+                // total_lose_count.textContent=lose_count;
                 resetbutton.textContent="Play again";
                 chLeftCount.textContent=0;
                 
