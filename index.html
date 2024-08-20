@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khadapkar Color Game</title>
+    <link rel="stylesheet" href="color_game.css">
+</head>
+<body >
+    <div id="h1_display">
+    <a class=""  href="/" style=" margin-top: 3%; ">
+        <img src="img/lage2.png"  alt="Home" height="60" width="100"></img>
+      </a>
+    
+    <h1 >Find the right Color
+        <br>
+        <span id="colordisplay"></span><br></h1>
+    </div>
+    <div id="messagecontainer">
+        <button id="resetbutton">Refresh</button>
+        <span id="msg"> Play </span>
+        <button id="easy" class="mode">Easy</button>
+        <button id="medium" class="selected mode">Medium</button>
+        <button id="hard" class="mode">Hard</button>
+        <div>
+        <label id="chanceleft">Chance left:</label>
+        <label id="chanceleftcount">3</label>
+        </div>
+    </div>
+    
+    
+    <div id="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+    <div id="score_div" style=" width: 100%; text-align: center; margin-top: 0%;">
+        <div >
+        <label>Red(255,0,0) </label><br>
+        <label>Green(0,255,0) </label><br>
+        <label>Blue(0,0,255) </label>
+        </div>  
+        <!-- <p>Total Games:<span id="total_game">0</span></p>
+        <p>Win:<span id="win_score">0</span></p>
+        <p>Lose:<span id="lose_score">0</span></p> -->
+    </div>
+
+    <script src="colorgame.js"></script>
+</body>
+</html>
